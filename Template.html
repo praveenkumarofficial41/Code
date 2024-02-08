@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .main{
+            box-shadow: 0px 0px 100px black;
+            height: 100%;
+            width: 90vw;
+            margin: 0vh 5vw;
+        }
+        .head{
+            background-image: url(1.jpg);
+            background-size: cover;
+            height: 40vh;
+            width: 100%;
+            font-family: sans-serif;
+            padding-top: 15vh;
+            display:flex;
+            flex-direction: column;
+            align-items: center;
+            row-gap: 3vh;
+            flex-wrap: wrap;
+        }
+        .head input{
+            width: 50vw;
+            height: 4vh;
+            border-radius: 10px;
+            background: transparent;
+            display: inline-block;
+        }
+        button{
+            text-transform: capitalize;
+            border: 2px solid black;
+            width: 20vw;
+            height: 5vh;
+            border-radius: 5px;    
+            backdrop-filter: blur(10px);
+            background-color: transparent;
+        }
+        button:active{
+         transform: translatey(-6px);
+         background-color: black;
+         color: white;
+        }
+        .content{
+            display: flex;
+            justify-content: center;
+        }
+        .content1{
+            height: 100%;
+            width: 60vw;
+            margin-top: 5vh;
+        }
+        .box1{
+            display: flex;
+            flex-direction: row;
+            width: 55vw;
+            margin-left: 2.5vw;
+            column-gap: 2vw;
+            justify-content: space-around;
+        }
+        .box2{
+            display: flex;
+            flex-direction: row;
+            width: 55vw;
+            margin-left: 2.5vw;
+            column-gap: 2vw;
+            justify-content: space-around;
+        }
+        .end{
+            margin: 10vh 10vw;
+        }
+
+
+    </style>
+
+</head>
+<body>
+    <div class="main">
+        <div class="head">
+            <h2>HTML with Flex Properties</h2>
+            <input type="text" placeholder="Search">
+            <button>click here to Search</button>
+        </div>
+        <div class="content">
+            <div class="content1">
+                <h2>Our Journal</h2><br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit delectus laboriosam. <br> obcaecati neque maiores ducimus, provident.</p><br>
+                <div class="box1">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, beatae quas! Cum hic maxime sit, iure laboriosam temporibus </p>
+                    <img src="2.jpg" style="height: 120px; width: 950px;">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, beatae quas! Cum hic maxime sit, iure laboriosam temporibus </p>
+                </div>
+                <div class="box2">
+                    <img src="3.jpg" style="height: 120px; width: 950px;">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, beatae quas! Cum hic maxime sit, iure laboriosam temporibus </p>
+                    <img src="4.jpg" style="height: 120px; width: 950px;">
+                </div>
+                <div class="end">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, libero nulla! Aliquam rerum, error voluptate nobis voluptas iusto adipisci maiores temporibus mollitia minima sit reiciendis ipsum optio nesciunt beatae, laudantium dolorem, cupiditate eveniet. Commodi iste at, nobis consequatur magnam hic harum. Adipisci accusantium recusandae fuga illum, architecto praesentium labore doloribus!</p>
+                </div>
+            </div>
+        </div>
+        
+
+
+    </div>  
+</body>
+</html>
